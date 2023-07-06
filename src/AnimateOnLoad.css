@@ -1,0 +1,19 @@
+/* loading */
+.animation-container {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .animation-container.loading {
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
